@@ -1432,6 +1432,135 @@ body.ie ._ibg img {
   background: url("../img/icons/close.svg") 0 0 no-repeat;
 }
 
+header {
+  padding: 29px 0 33px 0;
+}
+
+.header-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-top__link {
+  font-family: 'AkzidenzGroteskBQCondensedBold';
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 15px;
+  color: #000;
+}
+
+.header-top-lang {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 0;
+}
+
+.header-top-lang__item {
+  display: block;
+  line-height: 19px;
+  color: #000;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: Bebas;
+  letter-spacing: 1px;
+  padding: 0 4px;
+  margin: 0 10px 0 0;
+}
+
+.header-top-lang__item.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.header-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: -10px 0 0 0;
+}
+
+.header-bottom__column {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.333%;
+          flex: 0 0 33.333%;
+}
+
+.header-bottom-menu--right .header-bottom-menu-list {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 0;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  text-align: right;
+}
+
+.header-bottom-menu--right .header-bottom-menu-list li {
+  margin: 0 0 0 45px;
+}
+
+.header-bottom-menu--right .header-bottom-menu-list li:first-child {
+  margin: 0;
+}
+
+.header-bottom-menu--right .header-bottom-menu-list li:last-child {
+  margin: 0 0 0 45px;
+}
+
+.header-bottom-menu__link {
+  font-family: 'AkzidenzGroteskBQCondensedBold';
+  color: #000;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.header-bottom-menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 0;
+}
+
+.header-bottom-menu-list li {
+  margin: 0 45px 0 0;
+}
+
+.header-bottom-menu-list li:last-child {
+  margin: 0 0 0 0;
+}
+
+.header-logo {
+  display: block;
+  text-align: center;
+}
+
+.header-logo__text {
+  display: block;
+  color: #000000;
+  font-family: Bebas;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-size: 10px;
+}
+
+.header-logo__image {
+  display: inline-block;
+  margin: 13px 0 22px 0;
+}
+
 /*
 //Burger
 .icon-menu {

@@ -50,3 +50,12 @@
 		#{$indentType}: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth - 320}));
 	}
 }
+//flexbox
+@mixin flexbox() {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	font-size: 0;
+}
